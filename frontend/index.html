@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+</head>
+<body>
+    <h1>Blockchain-Based Voting System</h1>
+    <h2>Register Voter</h2>
+    <form id="registerForm">
+        <input type="text" id="voterId" placeholder="Voter ID" required>
+        <button type="submit">Register</button>
+    </form>
+    <h2>Add Candidate</h2>
+    <form id="candidateForm">
+        <input type="text" id="candidateId" placeholder="Candidate ID" required>
+        <input type="text" id="candidateName" placeholder="Candidate Name" required>
+        <button type="submit">Add Candidate</button>
+    </form>
+    <h2>Cast Vote</h2>
+    <form id="voteForm">
+        <input type="text" id="voteVoterId" placeholder="Voter ID" required>
+        <input type="text" id="voteCandidateId" placeholder="Candidate ID" required>
+        <button type="submit">Vote</button>
+    </form>
+    <h2>Results</h2>
+    <div id="results"></div>
+    <script>
+        // JavaScript to handle form submissions and display results
+    </script>
+</body>
+</html>
